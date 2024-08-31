@@ -1,3 +1,9 @@
+let Weight = 64;
+let Height =1.64;
+let Bmi = Weight / (Height **2); 
+console.log(Bmi);
+
+
 function bmi (weight , height) {
     let bmi = weight / (height ** 2);
     if (bmi < 18.5) {
@@ -20,3 +26,6 @@ function bmi (weight , height) {
     }
 }
 console.log(bmi(64 , 1.64));
+
+
+
